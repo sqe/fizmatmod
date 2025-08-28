@@ -125,7 +125,7 @@ Now we can predict the state at $t=0.1$ weeks:
 * $p_1(0.1) \approx p_1(0) + \dot{p}_1(0)\Delta t = 1 + (-6)(0.1) = \textbf{0.4}$
 * $p_2(0.1) \approx p_2(0) + \dot{p}_2(0)\Delta t = 0.75 + (-6.5)(0.1) = \textbf{0.1}$
 
-![Hamiltonian](first_example.png)
+![Hamiltonian](./plots/first_example.png)
 
 These calculations show that the team will add a new feature and a small number of bugs, but their momentum ($p_1$ and $p_2$) will significantly decrease. This reflects the reality that as features and bugs accumulate, the team's velocity slows down.
 
@@ -218,7 +218,7 @@ Now, we use **Hamilton's equations** to predict the change in momentum ($\dot{p}
 * $\dot{p}_4(0) = -\frac{\partial H}{\partial q_4} = -q_4(0) = \textbf{-100}$
 * $\dot{p}_5(0) = -\frac{\partial H}{\partial q_5} = -10q_5(0) - 0.25q_3(0) = -10(10) - 0.25(5) = \textbf{-101.25}$
 
-![Hamiltonian](seven_example.png)
+![Hamiltonian](./plots/seven_example.png)
 
 These results show that the project's momentum in all five dimensions is rapidly decaying due to the combined friction of all the variables. This indicates a system nearing a critical point where its existing state (high toil, incidents, and utilization) is making it increasingly difficult to sustain its current velocity.
 
@@ -259,9 +259,9 @@ Now, we use **Hamilton's equations** to predict the change in momentum ($\dot{p}
 * $\dot{p}_4(0) = -\frac{\partial H}{\partial q_4} = -q_4(0) = \textbf{-80}$
 * $\dot{p}_5(0) = -\frac{\partial H}{\partial q_5} = -10q_5(0) - 0.25q_3(0) = -10(5) - 0.25(2) = \textbf{-50.5}$
 
-![Lagranrian](Figure_8b.png)
+![Lagranrian](./plots/Figure_8b.png)
 
-![Hamiltonian](figure_8a.png)
+![Hamiltonian](./plots/figure_8a.png)
 
 **Why the numbers are still negative:**
 Even in a positive scenario, the $\dot{p}$ values will still be negative, but the *system's response* is what indicates a positive outcome. The negative values simply represent the constant pull of the "potential energy" (technical debt, incidents, etc.) on the system's momentum.
