@@ -220,8 +220,6 @@ Now, we use **Hamilton's equations** to predict the change in momentum ($\dot{p}
 * $\dot{p}_4(0) = -\frac{\partial H}{\partial q_4} = -q_4(0) = \textbf{-100}$
 * $\dot{p}_5(0) = -\frac{\partial H}{\partial q_5} = -10q_5(0) - 0.25q_3(0) = -10(10) - 0.25(5) = \textbf{-101.25}$
 
-![Hamiltonian](./plots/seven_example.png)
-
 These results show that the project's momentum in all five dimensions is rapidly decaying due to the combined friction of all the variables. This indicates a system nearing a critical point where its existing state (high toil, incidents, and utilization) is making it increasingly difficult to sustain its current velocity.
 
 ***
