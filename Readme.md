@@ -1,4 +1,6 @@
-## FizMatMod is a project that applies the Hamiltonian and Lagrangian formulations from classical mechanics to model and optimize software development projects.
+## FizMatMod 
+
+A framework that applies the Hamiltonian and Lagrangian formulations from classical mechanics to model and optimize software development projects.
 
 
 This repository contains a framework for applying principles of classical mechanics—specifically **Lagrangian** and **Hamiltonian** formulations—to model and optimize dynamic software development projects. The name "FizMatMod" is a portmanteau of **"Fizika" (Physics)**, **"Matematika" (Mathematics)**, and **"Modeling"**, reflecting the project's interdisciplinary nature.
