@@ -276,7 +276,7 @@ In this scenario, the initial momentum values ($p_1=7$) are higher, and the cumu
 
 Lev Davidovich Landau & Evgeny Mikhailovich Lifshitz, [Mechanics.](https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics)
 
-[Euler-Lagrange equation explained intuitively - Lagrangian Mechanics](https://www.google.com/search?q=https://youtu.be/EceVJJGAFFI%3Fsi%3DJmfu2k_l-lqWUlk)
+[Euler-Lagrange equation explained intuitively - Lagrangian Mechanics](https://youtu.be/EceVJJGAFFI%3Fsi%3DJmfu2k_l-lqWUlk)
 
 [The Equation That Explains 'Nearly' Everything! - PBS Space Time](https://youtu.be/PHiyQID7SBs?si=l3lLbLECtNlO3I9m)
 
