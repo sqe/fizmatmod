@@ -57,24 +57,7 @@ This means that the path of a project through its phase space is the one that mi
 
 ***
 
-### 4. Mapping Metrics to the Model
-
-We can apply this model to a more abstract, service-oriented architecture. Instead of tracking low-level processes, we focus on the higher-level units of work that affect the system's state and a team's productivity.
-
-* **Generalized Coordinates ($q$):** These metrics represent the state of the product and its health.
-    * $q_1$: The cumulative number of completed features (Deployment Frequency).
-    * $q_2$: The cumulative hours of toil.
-    * $q_3$: The cumulative number of incidents (Incident Volume).
-    * $q_4$: The cumulative resource utilization price (e.g., in dollars).
-    * $q_5$: The cumulative minutes of system downtime (System Availability/Uptime).
-
-* **Kinetic "Energy" ($T$)**: This represents the momentum of the development team. The velocity ($\dot{q}_i$) is the rate of change of each metric, e.g., features completed per week ($\dot{q}_1$). The "mass" ($m_i$) in $T = \frac{1}{2}\sum_i m_i \dot{q}_i^2$ can represent the organizational inertia of each metric. For example, reducing toil ($m_2$) might be a harder problem than adding features ($m_1$).
-
-* **Potential "Energy" ($V$)**: This represents the "debt" or friction in the system. As the number of features, bugs, and toil increases, the potential for project-wide issues rises. The potential function can include coupling terms to show how they interact, e.g., $V = k_1q_1^2 + k_2q_2^2 + k_{12}q_1q_2$, where more features ($q_1$) lead to more bugs ($q_2$).
-
-***
-
-### 5. A Concrete Example with Values and Calculations
+### 4. A Concrete Example of Modeling by Mapping Metrics with Values and Calculations
 
 Let's model a two-variable system: a team's feature delivery and bug introduction. We can track the state of our project in a 4-dimensional phase space.
 
@@ -133,7 +116,7 @@ These calculations show that the team will add a new feature and a small number 
 
 ***
 
-### 6. Platform Health Metrics to the Model
+### 5. Modeling with Mapping Platform Health Metrics
 
 We can apply this model to a more abstract, service-oriented architecture. Instead of tracking low-level processes, we focus on the higher-level units of work that affect the system's state and a team's productivity.
 
@@ -150,7 +133,7 @@ We can apply this model to a more abstract, service-oriented architecture. Inste
 
 ***
 
-### 6.a. A Concrete Example with Expanded Platform Metrics
+### 5.a. A Concrete Example with Expanded Platform Metrics
 
 This example now uses five variables to capture a broader picture of the platform's health.
 
@@ -224,7 +207,7 @@ These results show that the project's momentum in all five dimensions is rapidly
 
 ***
 
-### 7. An Example with a Positive Outcome
+### 6. An Example with a Positive Outcome
 
 To model a positive outcome, let's assume a team has aggressively tackled technical debt, automated toil, and improved system resilience. The initial conditions will reflect this.
 
